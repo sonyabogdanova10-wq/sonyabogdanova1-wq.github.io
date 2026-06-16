@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>пупупу</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header" id="top">
+    <div class="header__inner container">
+      <a href="#top" class="header__logo">
+        <img src="images/logo.svg" alt="Second Chance" width="48" height="48">
+      </a>
+
+      <nav class="header__nav" id="nav">
+        <a href="#about">о нас</a>
+        <a href="#features">возможности</a>
+        <a href="#contacts">контакты</a>
+        <a href="#reviews">отзывы</a>
+        <a href="#screenshots">скриншоты</a>
+        <a href="#download">скачать</a>
+      </nav>
+
+      <button class="header__burger" id="burger" type="button" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img class="hero__character hero__character--left" src="images/hero-left.png" alt="">
+    <img class="hero__character hero__character--right" src="images/hero-right.png" alt="">
+
+    <div class="hero__content container">
+      <img class="hero__logo-mobile" src="images/logo-dark.svg" alt="Second Chance">
+      <h1 class="hero__title">
+        <span class="hero__title-text">СДАЛ?</span>
+        <img class="hero__title-logo" src="images/logo-dark.svg" alt="">
+        <span class="hero__title-text">ДА.</span>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">НАЧНЁМ ЖЕ!</h2>
+
+      <div class="about__grid">
+        <div class="about__cell about__cell--image">
+          <img src="images/about-creature.png" alt="Second Chance">
+        </div>
+
+        <div class="about__cell about__cell--text">
+          <h3>Second Chance...</h3>
+          <p class="about__subheading">КТО ЖЕ МЫ ТАКИЕ?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <a href="#" class="btn btn--outline about__btn-mobile">Читать</a>
+        </div>
+
+        <div class="about__cell about__cell--text">
+          <h3>ВТОРОЙ ШАНС</h3>
+          <p class="about__subheading">НО ДЛЯ ЧЕГО?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <a href="#" class="btn btn--outline about__btn-mobile">Читать</a>
+        </div>
+
+        <div class="about__cell about__cell--image">
+          <img src="images/about-creature.png" alt="Second Chance">
+        </div>
+      </div>
+
+      <div class="about__flip-card">
+        <div class="flip-card" data-flip="1">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <img src="images/about-creature.png" alt="Second Chance">
+              <button class="btn btn--outline flip-btn">Читать</button>
+            </div>
+            <div class="flip-card__back">
+              <h3>Second Chance...</h3>
+              <p class="about__subheading">КТО ЖЕ МЫ ТАКИЕ?</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button class="btn btn--outline flip-btn">Назад</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" data-flip="2">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <img src="images/about-creature.png" alt="Second Chance">
+              <button class="btn btn--outline flip-btn">Читать</button>
+            </div>
+            <div class="flip-card__back">
+              <h3>ВТОРОЙ ШАНС</h3>
+              <p class="about__subheading">НО ДЛЯ ЧЕГО?</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button class="btn btn--outline flip-btn">Назад</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Луна -->
+  <section class="moon">
+    <img class="moon__image" src="images/moon.png" alt="">
+  </section>
+
+  <!-- Возможности -->
+  <section class="features section" id="features">
+    <div class="container">
+      <h2 class="section-title section-title--features">Что можно делать в нашем приложении?</h2>
+      <div class="features__grid">
+        <article class="feature-card">
+          <div class="feature-card__img">
+            <img src="images/feature-chess.png" alt="">
+          </div>
+          <div class="feature-card__text">
+            <h3>ИГРАЙ,ЧТОБЫ ЗАКРЫВАТЬ ПРЕДМЕТЫ!</h3>
+            <p>Тут главный критерий оценивания — это победа в игре, поэтому пересдача вообще не будет ощущаться как пересдача :]</p>
+          </div>
+        </article>
+
+        <article class="feature-card feature-card--reverse">
+          <div class="feature-card__text">
+            <h3>ДОСТУП К ЛЕКЦИОННЫМ МАТЕРИАЛАМ</h3>
+            <p>В своё время не получалось поспевать за тем, что давалось в университете! Теперь об этом не стоит волноваться: раздел материалов к лекциями даст возможность проходить лекции как тебе будет удобно :]</p>
+          </div>
+          <div class="feature-card__img">
+            <img src="images/feature-book.png" alt="">
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card__img">
+            <img src="images/feature-scroll.png" alt="">
+          </div>
+          <div class="feature-card__text">
+            <h3>ДЕЛАЙ ЗАМЕТКИ К ЛЕКЦИЯМ И ПРОСТО ДЛЯ СЕБЯ!</h3>
+            <p>Не держи в голове абсолютно всё! При обучении иногда полезно всё же использовать и такие простые, но временами необходимые инструменты, как заметки  :]</p>
+          </div>
+        </article>
+
+        <article class="feature-card feature-card--reverse">
+          <div class="feature-card__text">
+            <h3>ЧАТ ИИ</h3>
+            <p>Возникли вопросы? Или простое любопытство? С функцией чата с ИИ процесс обучения и познания нового станет не таким тягучим и рутиным! :]</p>
+          </div>
+          <div class="feature-card__img">
+            <img src="images/feature-ai.png" alt="">
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Механизм пересдачи -->
+  <section class="mechanism section" id="reviews">
+    <div class="container mechanism__inner">
+      <div class="mechanism__text">
+        <h2 class="section-title">ОСНОВНОЙ МЕХАНИЗМ ПЕРЕСДАЧИ</h2>
+        <p class="mechanism__subtitle">Как это работает?</p>
+        <ol class="mechanism__list">
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</li>
+          <li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+          <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa.</li>
+        </ol>
+        <p class="mechanism__wish">ЖЕЛАЕМ УДАЧИ!</p>
+      </div>
+
+      <div class="mechanism__ticket">
+        <img src="images/ticket.png" alt="Билет на пересдачу">
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="contacts section" id="contacts">
+    <div class="container">
+      <h2 class="section-title">ВОЗНИКЛИ ВОПРОСЫ?</h2>
+      <p class="contacts__subtitle">Мы будем рады на них ответить :)</p>
+
+      <div class="contacts__grid">
+        <div class="contacts__item">
+          <p class="contacts__label">НАЗВАНИЕ<br>МЕССЕНДЖЕРА</p>
+          <a href="#" class="contacts__link">ССЫЛКА</a>
+        </div>
+
+        <div class="contacts__sphere">
+          <img src="images/sphere.png" alt="">
+        </div>
+
+        <div class="contacts__item contacts__item--right">
+          <p class="contacts__label">ПОЧТА</p>
+          <a href="mailto:secondchance_haha@gmail.com" class="contacts__link">secondchance_haha@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Скриншоты -->
+  <section class="screenshots section" id="screenshots">
+    <div class="container">
+      <h2 class="section-title">СКРИНШОТЫ ПРИЛОЖЕНИЯ</h2>
+      <div class="screenshots__grid">
+        <img src="images/screenshot-01.svg" alt="Скриншот 1">
+        <img src="images/screenshot-02.svg" alt="Скриншот 2">
+        <img src="images/screenshot-03.svg" alt="Скриншот 3">
+        <img src="images/screenshot-04.svg" alt="Скриншот 4">
+        <img src="images/screenshot-05.svg" alt="Скриншот 5">
+        <img src="images/screenshot-06.svg" alt="Скриншот 6">
+        <img src="images/screenshot-07.svg" alt="Скриншот 7">
+        <img src="images/screenshot-08.svg" alt="Скриншот 8">
+      </div>
+    </div>
+  </section>
+
+  <!-- Скачать -->
+  <section class="download section" id="download">
+    <div class="container">
+      <div class="download__inner">
+        <div class="download__content">
+          <h2 class="section-title section-title--download">
+            ПОНРАВИЛАСЬ НАША МИНИ-ПРЕЗЕНТАЦИЯ ПРИЛОЖЕНИЯ? ПОЧУВСТВОВАЛ, ЧТО И У ТЕБЯ ЕСТЬ ВТОРОЙ ШАНС?
+          </h2>
+          <p class="download__desc">Тогда смелее скачивай приложение по ссылке ниже! :)</p>
+
+          <div class="download__card">
+            <div class="download__character">
+              <img src="images/character-goblin.png" alt="">
+            </div>
+            <div class="download__qr">
+              <img src="images/icon_download.svg" alt="">
+            </div>
+            <a href="#" class="btn btn--gold download__btn">Скачать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="footer__grass">
+      <img src="images/grass_footer.svg" alt="">
+    </div>
+
+    <div class="footer__brand">
+      <img class="footer__emblem" src="images/logo_footer.svg" alt="Second Chance">
+
+      <nav class="footer__nav">
+        <a href="#">О нас</a>
+        <a href="#about">О приложении</a>
+        <a href="#">Функции приложения</a>
+        <a href="#">Задать вопрос</a>
+        <a href="#">Скриншоты из приложения</a>
+      </nav>
+    </div>
+
+    <p class="footer__copy">© 2026 СПбГУПТД. Все права защищены.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
