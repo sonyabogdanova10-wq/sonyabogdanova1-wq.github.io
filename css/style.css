@@ -726,11 +726,64 @@ ol {
    МЕДИАЗАПРОСЫ
    ============================================= */
 
+/* 1920 — desktop, контекстная зона 1600 */
+@media (min-width: 1441px) {
+  :root {
+    --container-width: 1600px;
+  }
+
+  .container {
+    padding: 0;
+  }
+  .about__grid {
+    grid-template-columns: 792px 792px;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .about__cell {
+    width: 792px;
+    height: 318px;
+  }
+
+  .features__grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .feature-card {
+    width: 388px;
+    height: 629px;
+  }
+
+  .feature-card__text h3 {
+    font-size: 24px;
+  }
+
+  .feature-card__text p {
+    font-size: 18px;
+  }
+
+  .screenshots__grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .screenshots__grid img {
+    width: 100%;
+    aspect-ratio: 388 / 283;
+  }
+}
+
 /* 1440 — laptop, контекстная зона 1280 */
 @media (max-width: 1440px) {
   :root {
     --container-width: 1280px;
     --sphere-size: 416px;
+  }
+
+  .container {
+    padding: 0;
   }
 
   .header__nav {
@@ -1029,8 +1082,8 @@ ol {
   }
 }
 
-/* 375 — mobile, контекстная зона 360 */
-@media (max-width: 375) {
+/* 400 — mobile, контекстная зона 360 */
+@media (max-width: 400px) {
   :root {
     --container-width: 360px;
     --sphere-size: 139px;
@@ -1127,8 +1180,9 @@ ol {
   }
 
   .flip-card {
-    width: 100%;
+    width: 360px;
     height: 567px;
+    margin: 0 auto;
     perspective: 1000px;
   }
 
