@@ -33,7 +33,7 @@
   --title-size: 64px;
   --title-size-download: 48px;
 }
-/* ===== Сброс и база ===== */
+/* СБРОС ТУТ */
 *,
 *::before,
 *::after {
@@ -69,7 +69,7 @@ ol {
   list-style: none;
 }
 
-/* ===== Контейнер (контекстная зона) ===== */
+/* КОНТЕЙНЕР (КОНТЕКСТНАЯ ЗОНА) */
 .container {
   width: 100%;
   max-width: var(--container-width);
@@ -77,7 +77,7 @@ ol {
   padding: 0 20px;
 }
 
-/* ===== Заголовки секций ===== */
+/* ЗАГОЛОВКИ СЕКЦИЙ */
 .section {
   padding: 80px 0;
 }
@@ -99,7 +99,7 @@ ol {
 .section-title--features {
   color: var(--color-gold);
 }
-/* ===== Кнопки ===== */
+/* КНОПКИ */
 .btn {
   display: inline-block;
   padding: 14px 32px;
@@ -132,7 +132,7 @@ ol {
   margin-top: 24px;
 }
 
-/* ===== Шапка ===== */
+/* ШАПКА */
 .header {
   position: fixed;
   top: 0;
@@ -211,7 +211,7 @@ ol {
   transform: translateY(-9px) rotate(-45deg);
 }
 
-/* ===== Hero ===== */
+/*    HERO    */
 .hero {
   position: relative;
   min-height: 520px;
@@ -284,7 +284,7 @@ ol {
   margin-top: 32px;
 }
 
-/* ===== О нас ===== */
+/* ===== БЛОК О НАС ЗВЁЗДОЧКИ ===== */
 .about__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -343,12 +343,12 @@ ol {
   align-self: flex-start;
 }
 
-/* Flip card for mobile 375 */
+/* FLIP CARD ДЛЯ MOB 375 */
 .about__flip-card {
   display: none;
 }
 
-/* ===== Луна ===== */
+/*  ЛУНА НА ГРАДИЕНТЕ   */
 .moon {
   background: linear-gradient(180deg, #111111 0%, #6E581F 50%, #FFE49D 100%);
   padding: 80px 20px;
@@ -363,7 +363,7 @@ ol {
   object-fit: contain;
 }
 
-/* ===== Возможности (переработано) ===== */
+/* ФИЧИ КАРТОЧКИ */
 .features__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -422,7 +422,7 @@ ol {
   line-height: 1.6;
 }
 
-/* ===== Механизм пересдачи (переработано) ===== */
+/* МЕХАНИЗМ ПЕРЕСДАЧИ */
 .mechanism {
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
@@ -486,7 +486,7 @@ ol {
   margin: 0 auto;
 }
 
-/* ===== Контакты ===== */
+/* КОНТАКТЫ */
 .contacts__subtitle {
   font-family: var(--font-body);
   text-align: center;
@@ -531,7 +531,7 @@ ol {
   margin: 0 auto;
 }
 
-/* ===== Скриншоты ===== */
+/* СКРИНШОТЫ */
 .screenshots__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -547,7 +547,7 @@ ol {
   border-radius: 4px;
 }
 
-/* ===== Скачать ===== */
+/* СКАЧАТЬ */
 .download {
   position: relative;
   overflow: hidden;
@@ -579,7 +579,7 @@ ol {
   font-size: 18px;
 }
 
-/* Карточка: квадратная картинка + кнопка вплотную */
+/* КАРТОЧКА (КВАДРАТНАЯ КАРТИНКА + КНОПКА ВПЛОТНУЮ К НЕЙ */
 .download__card {
   display: flex;
   flex-direction: column;
@@ -625,12 +625,12 @@ ol {
   color: var(--color-black);
 }
 
-/* Карточка: relative-родитель для гоблина */
+/* ДЛЯ СУЩЕСТВА В КОНЦЕ */
 .download__card {
   position: relative;
 }
 
-/* Гоблин — абсолютно справа, на уровне карточки */
+/* СУЩЕСТВО НА УРОВНЕ КАРТОЧКИ ПО СУТИ */
 .download__character {
   position: absolute;
   top: 50%;
@@ -648,7 +648,7 @@ ol {
   left: -30px;
 }
 
-/* ===== Подвал ===== */
+/* FOOTER */
 .footer {
   position: relative;
   background: #000;
@@ -656,7 +656,7 @@ ol {
   padding-bottom: 48px;
 }
 
-/* Трава — на всю высоту футера, прижата к низу */
+/* ТРАВА В ФУТЕРЕ */
 .footer__grass {
   position: absolute;
   inset: 0;
@@ -672,7 +672,7 @@ ol {
   object-position: bottom center;
 }
 
-/* Бренд (логотип + ссылки поверх) */
+/* ЛОГО КОМПАНИИ (БРЕНДА) В САМО НИЗУ, ПОЛУПРОЗРАЧНОЕ ПО Z ВЫШЕ ТРАВЫ */
 .footer__brand {
   position: relative;
   z-index: 2;
@@ -688,7 +688,7 @@ ol {
   object-fit: contain;
 }
 
-/* Ссылки поверх логотипа */
+/* ССЫЛКИ В ФУТЕРЕ ПОВЕРХ ВСЕГО ПРОЧЕГО */
 .footer__nav {
   position: absolute;
   top: 50%;
@@ -712,7 +712,7 @@ ol {
   opacity: 0.7;
 }
 
-/* Копирайт внизу */
+/* КОПИРАЙТ */
 .footer__copy {
   position: relative;
   z-index: 2;
@@ -723,7 +723,7 @@ ol {
 }
 
 /* =============================================
-   МЕДИАЗАПРОСЫ
+   МЕДИАЗАПРОСЫ  МЕДИАЗАПРОСЫ МЕДИАЗАПРОСЫ МЕДИАЗАПРОСЫ МЕДИАЗАПРОСЫ МЕДИАЗАПРОСЫ 
    ============================================= */
 
 /* 1920 — desktop, контекстная зона 1600 */
@@ -775,7 +775,7 @@ ol {
   }
 }
 
-/* 1440 — laptop, контекстная зона 1280 */
+/* 1440 — LAPTOP, контекстная зона 1280 */
 @media (max-width: 1440px) {
   :root {
     --container-width: 1280px;
@@ -852,7 +852,7 @@ ol {
   }
 }
 
-/* 1194 — tablet hor, контекстная зона 960, бургер */
+/* 1194 — TABLET HOR, контекстная зона 960, бургер начался */
 @media (max-width: 1194px) {
   :root {
     --container-width: 960px;
@@ -929,7 +929,7 @@ ol {
     aspect-ratio: 472 / 347;
   }
 
-  /* Download 1194 */
+  /* скачать 1194 */
   .download__qr {
     width: 228px;
     height: 228px;
@@ -947,7 +947,7 @@ ol {
     left: -80px;
   }
 
-  /* Footer 1194 */
+  /* FOOTER 1194 */
   .footer__emblem {
     width: 307px;
     height: 193px;
@@ -958,7 +958,7 @@ ol {
   }
 }
 
-/* 834 — tablet vert, контекстная зона 720 */
+/* 834 — TABLET VER, контекстная зона 720 */
 @media (max-width: 834px) {
   :root {
     --container-width: 720px;
@@ -977,6 +977,10 @@ ol {
 
   .hero__character {
     max-width: 30%;
+  }
+
+  .hero__title-text {
+    font-size: 72px;
   }
 
   .about__grid {
@@ -1009,8 +1013,19 @@ ol {
     height: 531px;
   }
 
+  .feature-card__text {
+    text-align: center;
+    padding: 24px;
+    justify-content: flex-start;
+  }
+
   .feature-card__text h3 {
     font-size: 20px;
+    text-align: center;
+  }
+
+  .feature-card__text p {
+    text-align: center;
   }
 
   .mechanism__inner {
@@ -1082,8 +1097,9 @@ ol {
   }
 }
 
-/* 400 — mobile, контекстная зона 360 */
-@media (max-width: 400px) {
+/* 375 — mobile, контекстная зона 360, 400 проставлено, потому как иначе карточки со звездой не принимают заданную форму при проставлении значения 375 именно здесь в коде
+сейчас же если тестировать адаптивность, то всё работает корректно при выставлении значения = 375, вот */
+@media (max-width: 400px) { /* так нужно */
   :root {
     --container-width: 360px;
     --sphere-size: 139px;
@@ -1096,7 +1112,7 @@ ol {
   }
 
   .container {
-    padding: 0 8px;
+    padding: 0;
   }
 
   .section {
@@ -1111,7 +1127,7 @@ ol {
     font-size: 32px;
   }
 
-  /* Все остальные заголовки секций — 28px */
+  /* Все остальные заголовки секций = 28px */
   .features .section-title,
   .mechanism .section-title,
   .contacts .section-title,
@@ -1132,7 +1148,7 @@ ol {
     font-size: 16px;
   }
 
-  /* Footer 375 */
+  /* FOOTER 375 */
   .footer__emblem {
     width: 197px;
     height: 123px;
@@ -1168,7 +1184,7 @@ ol {
     height: 55%;
   }
 
-  /* About — Скрываем старую сетку, показываем flip-карточки */
+  /* About — С СЕТКИ НА КАРТОЧКИ FLIP */
   .about__grid {
     display: none;
   }
@@ -1176,13 +1192,14 @@ ol {
   .about__flip-card {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
   }
 
   .flip-card {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     height: 567px;
-    margin: 0 auto;
     perspective: 1000px;
   }
 
@@ -1228,6 +1245,10 @@ ol {
     display: block;
     text-align: center;
     border-width: 1px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 44px;
+    padding: 0;
   }
 
   .flip-card__back {
@@ -1260,7 +1281,10 @@ ol {
     display: block;
     text-align: center;
     border-width: 1px;
-    padding: 14px 0;
+    height: 44px;
+    font-size: 16px;
+    line-height: 44px;
+    padding: 0;
   }
 
   .about__btn-mobile {
@@ -1282,26 +1306,33 @@ ol {
     pointer-events: none;
   }
 
-  /* Features — одна колонка, каждая шириной 100%, высота 469px */
+  /* КАРТОЧКИ С ФУНКЦИЯМИ — одна колонка, каждая 360×469 */
   .features__grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
 
   .feature-card {
-    width: 100%;
+    width: 360px;
     height: 469px;
+    margin: 0 auto;
+  }
+
+  .feature-card__text {
+    text-align: center;
   }
 
   .feature-card__text h3 {
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .feature-card__text p {
     font-size: 16px;
+    text-align: center;
   }
 
-  /* Mechanism */
+  /* МЕХАНИЗМ ПЕРЕСДАЧИ */
   .mechanism__inner {
     grid-template-columns: 1fr;
   }
@@ -1319,7 +1350,7 @@ ol {
     font-size: 16px;
   }
 
-  /* Contacts */
+  /* КОНТАКТЫ */
   .contacts__label {
     font-size: 16px;
   }
@@ -1337,7 +1368,7 @@ ol {
     order: -1;
   }
 
-  /* Screenshots */
+  /* СКРИНШОТЫ */
   .screenshots__grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1346,7 +1377,7 @@ ol {
     aspect-ratio: 172 / 127;
   }
 
-  /* Download 375 */
+  /* СКАЧАТЬ 375 */
   .download__qr {
     width: 174px;
     height: 174px;
